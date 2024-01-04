@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#4b5ac2;
+    transition: 0.3s all;
+}
+
+#logar{
+    border: 2px solid #4b5ac2;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#logar:hover{
+    background-color: #4b5ac2;
+    color: white;
+}
+
+h1{
+    font-weight: 500;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+span{
+    color: #4b5ac2;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    text-align: justify;
+    font-weight: light;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type=submit]{
+    height: 50px;
+    width: 50%;
+    background-color: #4b5ac2;
+    color: white;
+    font-weight: bold;
+}
+
+form [type=submit]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+img{
+    width: 550px;
+}
+
+footer{
+    background-color: #4351ad;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    font-size: 0.8em;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: lightcyan;
+}
+
+footer img{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
